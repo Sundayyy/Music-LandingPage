@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
+    <title>Take People Close Together </title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Music</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- ShowCase -->
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Bring People Close Together.</h1>
+                <p>Did you ever think about what would life be without music? Well, I did and I think that the world
+                    would be a very quiet place. In my opinion music is something extraordinary, it is what makes humans
+                    human. Music is in a number of ways the fabric to our lives and the definition of society.</p>
+                <a href="#about" class="btn">Read more</a>
+            </div>
+            <img src="./img//showcase.jpg" alt="music-together">
+        </div>
+    </section>
+
+
+    <!-- Large Text -->
+
+    <section id="about" class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner py-5">
+                <h3>Vibrant & Crazy</h3>
+                <h2>People Aren't Hearing All The Music</h2>
+                <p>Every culture makes music and every past culture has created music too. Studies show how music
+                    affects
+                    many parts of our brain very deeply. </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="section-c">
+        <div class="gallery">
+            <a href="./img/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg"><img
+                    src="./img/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt=""></a>
+            <a href="./img/anthony-delanoix-hzgs56Ze49s-unsplash.jpg"><img
+                    src="./img/anthony-delanoix-hzgs56Ze49s-unsplash.jpg" alt=""></a>
+            <a href="./img/alexander-popov-hTv8aaPziOQ-unsplash.jpg"><img
+                    src="./img/alexander-popov-hTv8aaPziOQ-unsplash.jpg" alt=""></>
+            <a href="./img//jon-tyson-9b6yj0m2WVA-unsplash.jpg"><img src="./img/jon-tyson-9b6yj0m2WVA-unsplash.jpg"
+                        alt=""></a>
+            <a href="./img/mpumelelo-macu-9p-DsBtSygA-unsplash.jpg"><img
+                    src="./img/mpumelelo-macu-9p-DsBtSygA-unsplash.jpg" alt=""></a>
+            <a href="./img//emery-meyer-pfyvswY7QI0-unsplash.jpg"><img
+                    src="./img/emery-meyer-pfyvswY7QI0-unsplash.jpg" alt=""></>
+            <a href="./img//yiranding-3-8qgmXxa3k-unsplash.jpg"><img
+                    src="./img/yiranding-3-8qgmXxa3k-unsplash.jpg" alt=""></a>
+            <a href="./img/felipe-portella-h6gTtqBZUxc-unsplash.jpg"><img
+                    src="./img/felipe-portella-h6gTtqBZUxc-unsplash.jpg" alt=""></a>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <section class="section-footer">
+            <div class="container">
+                <div class="contact">
+                    <div class="contact"></div>
+                    <h2>Contact us</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100008620956316"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/sunday99s/"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://github.com/Sundayyy"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+                <div>
+                    <h1>Subscribe</h1>
+                    <form
+                    class="mt-1"
+                    name="email-form"
+                    method="POST"
+                    data-netlify="true"
+                  >
+                    <div class="email-form">
+                      <span class="form-control-wrap"
+                        ><input
+                          type="email"
+                          name="email"
+                          id="email"
+                          size="40"
+                          class="form-control"
+                          placeholder="E-mail"/></span
+                      ><button type="submit" value="Submit" class="form-control submit">
+                        <i class="fas fa-chevron-right"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+            <small>  All content &copy; Mr:Sundday.All rights reserved.</small>
+        </section>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+
+</html>
