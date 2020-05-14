@@ -157,10 +157,10 @@ img {
   grid-column: 1/3;
 }
 
-/* .section-c .gallery a:hover {
-  transform: scale(1.04);
-  transition: all 1.3s ease-in-out;
-} */
+.section-c .gallery img:hover {
+  transform: scale(0.98);
+  opacity: 0.7;
+}
 
 .section-c .gallery a:nth-child(2) {
   grid-column-start: 3;
@@ -171,6 +171,8 @@ img {
 .section-c .gallery a {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
 }
 
 .section-footer {
@@ -279,6 +281,11 @@ img {
   .section-b-inner p {
     display: none;
   }
+  .section-b-inner h2 {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
+
   .section-footer {
     padding: 2rem 0;
   }
